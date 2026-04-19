@@ -1,0 +1,434 @@
+
+
+:root {
+  --color-primary-800: #9810fa;
+  --color-primary-750: #8200db;
+  --color-primary-700: #7f22fe;
+  --color-primary-650: #7008e7;
+  --color-primary-600: #7c3aed;
+  --color-primary-550: #4f39f6;
+  --color-primary-500: #8e51ff;
+  --color-primary-450: #ad46ff;
+  --color-primary-300: #a684ff;
+  --color-primary-200: #c4b4ff;
+  --color-primary-50: #f5f3ff;
+  --color-primary-25: #ede9fe;
+  --color-primary-20: #f3e8ff;
+  --color-primary-15: #faf5ff;
+
+  --color-neutral-0: #ffffff;
+  --color-neutral-50: #f9fafb;
+  --color-neutral-200: #e5e7eb;
+
+  --color-text-800: #053541;
+  --color-text-750: #364153;
+  --color-text-700: #314158;
+  --color-text-650: #1e2939;
+  --color-text-600: #4a5565;
+  --color-text-500: #6a7282;
+  --color-text-400: #9aa2b0;
+
+  --color-surface-950: #101828;
+  --color-surface-900: #1d293d;
+  --color-surface-100: #ddd6ff;
+  --color-surface-75: #edeeea;
+  --color-surface-50: #f8f7ff;
+  --color-surface-25: #fbf7ff;
+
+  --color-success-600: #00a63e;
+  --color-success-50: #dbfce7;
+
+  --color-warning-600: #e17100;
+  --color-warning-500: #fe9a00;
+
+  --color-danger-600: #fb2c36;
+
+  --pad: 4.6875rem;
+
+  --inset-1: -0.125rem;
+  --inset-2: -1.125rem;
+  --inset-3: 1.125rem;
+}
+
+/* nav */
+
+@media (max-width: 85.9375rem) {
+  .navbar {
+    .container {
+      #navbarNavDropdown {
+        .navbar-nav {
+          .card-hover {
+            width: 88%;
+            left: 7%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 79.6875rem) {
+  .navbar {
+    .container {
+      #navbarNavDropdown {
+        .navbar-nav {
+          .card-hover {
+            & > div {
+              .box {
+                h3 {
+                  font-size: 1.125rem;
+                  margin-bottom: 0.9375rem;
+                }
+              }
+            }
+
+            & > .left {
+              .box:first-child {
+                .box-card {
+                  picture {
+                    img {
+                      width: 3.6rem;
+                    }
+                  }
+                }
+              }
+
+              .box:last-child {
+                div {
+                  p,
+                  i {
+                    font-size: 0.9375rem;
+                  }
+                }
+              }
+            }
+
+            & > .right {
+              gap: 1.875rem;
+
+              & > .box:first-child {
+                .cards-boxes {
+                  .card-box {
+                    padding: 1.125rem;
+                    width: 14.375rem;
+                  }
+                }
+              }
+
+              & > .box:last-child {
+                .cards-boxes {
+                  gap: 1.0625rem;
+
+                  .card-box {
+                    width: 15rem;
+
+                    &::after {
+                      height: 6.25rem;
+                      width: 6.25rem;
+                    }
+
+                    .top {
+                      .icon {
+                        height: 2.1875rem;
+                        width: 2.1875rem;
+                        font-size: 1rem;
+                      }
+
+                      h4 {
+                        font-size: 1rem;
+                        font-weight: 600;
+                      }
+                    }
+
+                    p {
+                      font-size: 0.875rem;
+                    }
+
+                    a {
+                      font-size: 0.8125rem;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 71.875rem) {
+  .navbar {
+    padding: 0.9375rem;
+
+    .container {
+      #navbarNavDropdown {
+        .navbar-nav {
+          .card-hover {
+            width: 96%;
+            left: 3%;
+
+            & > div {
+              .box {
+                h3 {
+                  font-size: 1.0625rem;
+                }
+              }
+            }
+
+            & > .left {
+              gap: 0.625rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 62rem) {
+  .navbar {
+    padding: 1.25rem;
+    background-color: var(--color-neutral-0);
+
+    .container {
+      #navbarNavDropdown {
+        background-color: var(--color-neutral-0);
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        -webkit-box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.25);
+        box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.25);
+
+        .navbar-nav {
+          gap: 0.6875rem;
+          padding-block: 0.9375rem;
+
+          .nav-item {
+            margin-left: 0;
+            padding: 0.75rem 0.9375rem;
+            border-radius: 0.25rem;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+
+            &:hover {
+              background-color: var(--color-primary-50);
+            }
+
+            &:hover .nav-link,
+            &:hover .nav-link.active {
+              color: var(--color-primary-600);
+            }
+
+            .nav-link {
+              -webkit-transition: 0.5s;
+              -o-transition: 0.5s;
+              transition: 0.5s;
+
+              &::before {
+                display: none;
+              }
+            }
+
+            .nav-link.active {
+              color: var(--color-text-700);
+              font-weight: 500;
+              -webkit-transition: 0.5s;
+              -o-transition: 0.5s;
+              transition: 0.5s;
+            }
+          }
+
+          .card-hover.show {
+            display: none !important;
+          }
+
+          .dropdown.nav-item {
+            overflow-y: auto;
+            max-height: 18.75rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 62rem) {
+  .navbar {
+    padding: 1.25rem;
+    background-color: var(--color-neutral-0);
+
+    .container,
+    .container {
+      #navbarNavDropdown {
+        .navbar-nav {
+          .dropdown.nav-item {
+            .card-hover-2 {
+              display: none !important;
+            }
+
+            .card-hover-2.show {
+              display: block !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**********************************************************/
+
+/* XXL */
+@media (max-width: 87.5rem) {
+}
+
+/* Extra large devices */
+@media (max-width: 75rem) {
+  /* Start Global */
+  .GlobalName {
+    h2 {
+      font-size: 2.25rem;
+    }
+  }
+  /* End Global */
+
+  #main {
+    #header {
+      .container {
+        h1 {
+          font-size: 3rem;
+        }
+
+        .bottom {
+          row-gap: 1.25rem;
+
+          .box {
+            width: 50%;
+          }
+        }
+      }
+    }
+
+    #Testimonials {
+      .container {
+        #carouselExampleIndicators {
+          .carousel-control-prev {
+            left: 1.25rem;
+          }
+
+          .carousel-control-next {
+            right: 1.25rem;
+          }
+
+          .carousel-inner {
+            width: 90%;
+          }
+        }
+      }
+    }
+
+    #FAQ {
+      .container {
+        #accordionExample {
+          .accordion-item {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Large devices */
+@media (max-width: 62rem) {
+  #main {
+    #Contact {
+      .layer {
+        display: none;
+      }
+    }
+  }
+}
+
+/* Medium devices */
+@media (max-width: 48rem) {
+  /* Start Global */
+  .GlobalName {
+    gap: 1.5625rem;
+    h2 {
+      font-size: 1.875rem;
+    }
+  }
+  /* End Global */
+
+  #main {
+    #header {
+      padding-block: 6.25rem 4.6875rem;
+    }
+
+    #Services {
+      .container {
+        overflow: hidden;
+
+        #pills-tabContent {
+          #pills-Buying.tab-pane,
+          #pills-Renting.tab-pane,
+          #pills-Commercial.tab-pane {
+            .content {
+              .right {
+                .layer {
+                  inset: auto auto var(--inset-1) var(--inset-3);
+                }
+              }
+            }
+          }
+
+          #pills-Selling.tab-pane,
+          #pills-Investing.tab-pane {
+            .content {
+              .right {
+                .layer {
+                  inset: auto var(--inset-3) var(--inset-1) auto;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #Testimonials {
+      .container {
+        #carouselExampleIndicators {
+          & > button {
+            display: none;
+          }
+
+          .carousel-inner {
+            width: 100%;
+
+            .carousel-item {
+              padding-inline: 0.3125rem;
+
+              .content {
+                .bottom {
+                  -webkit-box-orient: vertical;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  text-align: center;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
