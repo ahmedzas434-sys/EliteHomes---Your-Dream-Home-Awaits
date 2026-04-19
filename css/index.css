@@ -220,22 +220,22 @@ a {
   gap: 0.8125rem;
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:first-child {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image03.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image03.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:first-child:hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image03.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image03.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:nth-child(2) {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image04.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image04.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:nth-child(2):hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image04.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image04.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:last-child {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image05.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image05.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes > .card-box:last-child:hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image05.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image05.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .card-hover > .right > .box:first-child .cards-boxes .card-box {
   border-radius: 0.625rem;
@@ -501,22 +501,22 @@ a {
   gap: 0.8125rem;
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:first-child {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image03.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image03.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:first-child:hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image03.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image03.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:nth-child(2) {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image04.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image04.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:nth-child(2):hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image04.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image04.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:last-child {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image05.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.5), rgba(89, 22, 139, 0.5)), url(../images/image05.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes > .card-box:last-child:hover {
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image05.jfif);
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.65), rgba(89, 22, 139, 0.65)), url(../images/image05.webp);
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box:nth-child(3) .cards-boxes .card-box {
   border-radius: 0.625rem;
@@ -622,7 +622,7 @@ a {
   background-color: #9810fa;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.8), rgba(89, 22, 139, 0.8)), url("../images/image06.png");
+  background-image: linear-gradient(to right, rgba(77, 23, 154, 0.8), rgba(89, 22, 139, 0.8)), url("../images/image06.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
