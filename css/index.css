@@ -382,6 +382,7 @@ a {
   color: var(--color-text-700);
   font-weight: 500;
   padding: 0;
+  display: block;
 }
 .navbar .container #navbarNavDropdown .navbar-nav .nav-item .nav-link::before {
   content: "";
@@ -425,6 +426,7 @@ a {
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 {
   display: none !important;
+  padding: 0.75rem 0.9375rem;
 }
 .navbar .container #navbarNavDropdown .navbar-nav .dropdown.nav-item .card-hover-2 .box {
   padding: 0.9375rem;
@@ -1164,6 +1166,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 #main #FAQ .container #accordionExample .accordion-item .accordion-header .accordion-button::after {
   display: none;
